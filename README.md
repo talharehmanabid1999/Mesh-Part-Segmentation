@@ -4,14 +4,14 @@
 **Date:** 16 May 2023
 
 ## Introduction
-This report discusses an innovative approach to point cloud segmentation, which employs curvature computation to improve the accuracy of the segmentation process. 
+This discusses an innovative approach to point cloud segmentation, which employs curvature computation to improve the accuracy of the segmentation process. 
 
 ## Prior Attempts
 
 ### RANSAC and DBSCAN
 The first method attempted was the standard RANSAC (Random Sample Consensus) algorithm,
 which is a widely adopted approach for fitting a model within noisy data. In conjunction with
-RANSAC, DBSCAN (Density-Based Spatial Clustering of Applications with Noise), a densitybased clustering algorithm, was used to segment the point cloud. However, this approach faced
+RANSAC, DBSCAN (Density-Based Spatial Clustering of Applications with Noise), a density-based clustering algorithm, was used to segment the point cloud. However, this approach faced
 limitations in accurately segmenting points that lay on curves. The algorithm was unable to
 distinguish between planar and curved points, which led to the misclassification of points lying
 on the curvature as being part of planar regions. This resulted in poor segmentation, where planes
