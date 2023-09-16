@@ -122,7 +122,7 @@ distinct colors to demarcate different segments.
 
 ### B. Unsuccessful Examples
 Despite its effectiveness, our approach can also face challenges. Here, we present examples where the curvature-based point cloud segmentation method faced difficulties.
-![Unsuccessful Example Image 1](https://github.com/talharehmanabid1999/Mesh-Part-Segmentation/blob/main/results%201.png)
+![Unsuccessful Example Image 1](https://github.com/talharehmanabid1999/Mesh-Part-Segmentation/blob/main/badresults.png)
 
 Description: In this particular case, the metal component exhibited a complex topology,
 characterized by numerous protuberances, curvatures, boundaries, and isolated planar
